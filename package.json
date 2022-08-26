@@ -1,0 +1,18 @@
+{
+  "name": "cloudflare",
+  "main": "src/index.ts",
+  "scripts": {
+    "prettier": "prettier --ignore-path .gitignore --ignore-unknown --no-error-on-unmatched-pattern --check .",
+    "prettier:fix": "npm run prettier -- --write"
+  },
+  "prettier": "@lukeshay/prettier-config",
+  "dependencies": {
+    "@pulumi/cloudflare": "^4.9.0",
+    "@pulumi/pulumi": "^3.0.0"
+  },
+  "devDependencies": {
+    "@lukeshay/prettier-config": "^0.4.1",
+    "@types/node": "^14",
+    "prettier": "^2.7.1"
+  }
+}
