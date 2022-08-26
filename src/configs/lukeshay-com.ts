@@ -14,73 +14,73 @@ const lukeshayCom = new Zone(
 );
 
 new Record("fresh-a", {
-  zoneId: lukeshayCom.id,
   name: "fresh",
+  proxied: true,
   type: "A",
   value: DenoDeploy.IPv4,
-  proxied: true,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("fresh-aaaa", {
-  zoneId: lukeshayCom.id,
   name: "fresh",
+  proxied: true,
   type: "AAAA",
   value: DenoDeploy.IPv6,
-  proxied: true,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("fresh-acme-challenge", {
-  zoneId: lukeshayCom.id,
   name: "_acme-challenge.fresh",
+  proxied: false,
   type: "CNAME",
   value: "8b4d7903a993d63d627962dc._acme.deno.dev",
-  proxied: false,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("www-a", {
-  zoneId: lukeshayCom.id,
   name: "www",
+  proxied: true,
   type: "A",
   value: DenoDeploy.IPv4,
-  proxied: true,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("www-aaaa", {
-  zoneId: lukeshayCom.id,
   name: "www",
+  proxied: true,
   type: "AAAA",
   value: DenoDeploy.IPv6,
-  proxied: true,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("www-acme-challenge", {
-  zoneId: lukeshayCom.id,
   name: "_acme-challenge.www",
+  proxied: false,
   type: "CNAME",
   value: "7c9e8fcc6f7ea5fa0f62c238._acme.deno.dev",
-  proxied: false,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("@-a", {
-  zoneId: lukeshayCom.id,
   name: "@",
+  proxied: true,
   type: "A",
   value: DenoDeploy.IPv4,
-  proxied: true,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("@-aaaa", {
-  zoneId: lukeshayCom.id,
   name: "@",
+  proxied: true,
   type: "AAAA",
   value: DenoDeploy.IPv6,
-  proxied: true,
+  zoneId: lukeshayCom.id,
 });
 
 new Record("@-acme-challenge", {
-  zoneId: lukeshayCom.id,
   name: "_acme-challenge",
+  proxied: false,
   type: "CNAME",
   value: "dd2650195b4678fec5d9cae9._acme.deno.dev",
-  proxied: false,
+  zoneId: lukeshayCom.id,
 });

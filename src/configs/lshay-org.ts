@@ -1,6 +1,6 @@
 import { Zone } from "@pulumi/cloudflare";
 
-const lshayOrg = new Zone(
+new Zone(
   "lshay-org",
   {
     plan: "free",
