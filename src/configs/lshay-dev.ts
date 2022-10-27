@@ -37,18 +37,10 @@ new Record("mail-server-txt", {
 	zoneId: zone.id,
 });
 
-new Record("pompous-a", {
+new Record("pompous-cname", {
 	name: "pompous",
 	proxied: false,
-	type: "A",
-	value: "d3i656xw71x3lf.cloudfront.net",
-	zoneId: zone.id,
-});
-
-new Record("pompous-aaaa", {
-	name: "pompous",
-	proxied: false,
-	type: "AAAA",
+	type: "CNAME",
 	value: "d3i656xw71x3lf.cloudfront.net",
 	zoneId: zone.id,
 });
