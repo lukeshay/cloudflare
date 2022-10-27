@@ -44,3 +44,11 @@ new Record("pompous-cname", {
 	value: "d3i656xw71x3lf.cloudfront.net",
 	zoneId: zone.id,
 });
+
+new Record("astro-aws-cname", {
+	name: "astro-aws",
+	proxied: false,
+	type: "CNAME",
+	value: "d1hsd6l5lfa9ij.cloudfront.net",
+	zoneId: zone.id,
+});
