@@ -37,30 +37,18 @@ new Record("mail-server-txt", {
 	zoneId: zone.id,
 });
 
-new Record("aws-ns-com", {
-	name: "@",
-	type: "NS",
-	value: "ns-381.awsdns-47.com",
+new Record("pompous-a", {
+	name: "pompous",
+	proxied: false,
+	type: "A",
+	value: "d3i656xw71x3lf.cloudfront.net",
 	zoneId: zone.id,
 });
 
-new Record("aws-ns-co-uk", {
-	name: "@",
-	type: "NS",
-	value: "ns-1776.awsdns-30.co.uk",
-	zoneId: zone.id,
-});
-
-new Record("aws-ns-org", {
-	name: "@",
-	type: "NS",
-	value: "ns-1161.awsdns-17.org",
-	zoneId: zone.id,
-});
-
-new Record("aws-ns-net", {
-	name: "@",
-	type: "NS",
-	value: "ns-789.awsdns-34.net",
+new Record("pompous-aaaa", {
+	name: "pompous",
+	proxied: false,
+	type: "AAAA",
+	value: "d3i656xw71x3lf.cloudfront.net",
 	zoneId: zone.id,
 });
