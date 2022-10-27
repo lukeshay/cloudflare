@@ -36,3 +36,31 @@ new Record("mail-server-txt", {
 	value: "v=spf1 include:spf.privateemail.com ~all",
 	zoneId: zone.id,
 });
+
+new Record("aws-ns-com", {
+	name: "@",
+	type: "NS",
+	value: "ns-381.awsdns-47.com",
+	zoneId: zone.id,
+});
+
+new Record("aws-ns-co-uk", {
+	name: "@",
+	type: "NS",
+	value: "ns-1776.awsdns-30.co.uk",
+	zoneId: zone.id,
+});
+
+new Record("aws-ns-org", {
+	name: "@",
+	type: "NS",
+	value: "ns-1161.awsdns-17.org",
+	zoneId: zone.id,
+});
+
+new Record("aws-ns-net", {
+	name: "@",
+	type: "NS",
+	value: "ns-789.awsdns-34.net",
+	zoneId: zone.id,
+});
