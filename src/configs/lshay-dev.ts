@@ -57,6 +57,6 @@ new Record("astro-aws-cname", {
 	name: "astro-aws",
 	proxied: false,
 	type: "CNAME",
-	value: "d1qbf7b6rtemwn.cloudfront.net",
+	value: "d20x3pecj3d43u.cloudfront.net",
 	zoneId: zone.id,
 });
