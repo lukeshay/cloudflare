@@ -45,6 +45,14 @@ new Record("astro-aws-dev-cname", {
 	zoneId: zone.id,
 });
 
+new Record("pompous-cname", {
+	name: "pompous",
+	proxied: false,
+	type: "CNAME",
+	value: "d394imthhav3so.cloudfront.net",
+	zoneId: zone.id,
+});
+
 new Record("astro-aws-cname", {
 	name: "astro-aws",
 	proxied: false,
