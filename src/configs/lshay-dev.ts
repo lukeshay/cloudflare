@@ -37,10 +37,3 @@ new Record("mail-server-txt", {
 	zoneId: zone.id,
 });
 
-new Record("astro-aws-cname", {
-	name: "astro-aws",
-	proxied: false,
-	type: "CNAME",
-	value: "d20x3pecj3d43u.cloudfront.net",
-	zoneId: zone.id,
-});
