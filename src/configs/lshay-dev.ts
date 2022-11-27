@@ -39,7 +39,7 @@ new Record("mail-server-txt", {
 
 new Record("astro-aws-dev", {
   name: "astro-aws.dev",
-  proxied: true,
+  proxied: false,
   type: "CNAME",
   value: "d14obyj444711k.cloudfront.net",
   zoneId: zone.id,
