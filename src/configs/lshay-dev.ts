@@ -36,7 +36,7 @@ new Record("mail-server-txt", {
 	value: "v=spf1 include:spf.privateemail.com ~all",
 	zoneId: zone.id,
 });
-
+/*
 new Record("astro-aws-dev", {
 	name: "astro-aws.dev",
 	proxied: false,
@@ -52,6 +52,14 @@ new Record("astro-aws-dev-node-16", {
 	value: "d36yyb1wf1ticr.cloudfront.net",
 	zoneId: zone.id,
 });
+
+new Record("astro-aws-dev-node-18", {
+	name: "astro-aws.dev-node-18",
+	proxied: false,
+	type: "CNAME",
+	value: "d36yyb1wf1ticr.cloudfront.net",
+	zoneId: zone.id,
+});*/
 
 new Record("astro-aws", {
 	name: "astro-aws",
